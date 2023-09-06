@@ -111,9 +111,9 @@ io.on('connection', socket => {
       from: 'msteams72@gmail.com',
       to: mailId,
       subject: user + ' invited you to a Teams meeting',
-      html: `<p>Please visit <a href='https://nititat111.github.io/join-meeting'>here</a> and enter the Meeting Id <b>${roomId}</b> when prompted.
+      html: `<p>Please visit <a href='https://nititat.github.io/nititat111.github.io/join-meeting'>here</a> and enter the Meeting Id <b>${roomId}</b> when prompted.
       <br></br>
-      <p>Or you may also join the meeting directly from <a href='https://nititat111.github.io/${roomId}'>here</a>. Your video and audio will both be switched off by default.</p>
+      <p>Or you may also join the meeting directly from <a href='https://nititat.github.io/nititat111.github.io/${roomId}'>here</a>. Your video and audio will both be switched off by default.</p>
       Regards,
       <br></br>
       MS Teams</p>`,
